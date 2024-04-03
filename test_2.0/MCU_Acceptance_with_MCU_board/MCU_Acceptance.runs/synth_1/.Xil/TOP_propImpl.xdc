@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:D:/viviado2020/simulation_success_optimize/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/constrs_1/new/MCU_Acceptance.xdc rfile:../../../MCU_Acceptance.srcs/constrs_1/new/MCU_Acceptance.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R2 [get_ports rst_n]
+set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W5 [get_ports clk]

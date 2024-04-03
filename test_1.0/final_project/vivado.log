@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jul  7 13:35:38 2023
+# Process ID: 15940
+# Current directory: D:/viviado2020/onboard_success_own_plat1.0/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent712 D:\viviado2020\onboard_success_own_plat1.0\final_project\final_project.xpr
+# Log file: D:/viviado2020/onboard_success_own_plat1.0/final_project/vivado.log
+# Journal file: D:/viviado2020/onboard_success_own_plat1.0/final_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/viviado2020/onboard_success_own_plat1.0/final_project/final_project.xpr
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul  7 13:35:54 2023...

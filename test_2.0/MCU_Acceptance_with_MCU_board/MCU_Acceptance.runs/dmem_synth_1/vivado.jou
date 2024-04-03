@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul  4 09:26:22 2023
+# Process ID: 17136
+# Current directory: D:/viviado2020/simulation_success_optimize/MCU_Acceptance_with_MCU_board/MCU_Acceptance.runs/dmem_synth_1
+# Command line: vivado.exe -log dmem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dmem.tcl
+# Log file: D:/viviado2020/simulation_success_optimize/MCU_Acceptance_with_MCU_board/MCU_Acceptance.runs/dmem_synth_1/dmem.vds
+# Journal file: D:/viviado2020/simulation_success_optimize/MCU_Acceptance_with_MCU_board/MCU_Acceptance.runs/dmem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dmem.tcl -notrace

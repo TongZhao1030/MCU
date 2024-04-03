@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul  4 03:44:26 2023
+# Process ID: 656
+# Current directory: D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14376 D:\viviado2020\onboard_success_own_plat2.0\MCU_Acceptance_with_MCU_board\MCU_Acceptance.xpr
+# Log file: D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/vivado.log
+# Journal file: D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Viviado_project/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/viviado2020/MCU_Acceptance_with_MCU_board_blk/MCU_Acceptance.srcs/sources_1/COE/c2M.coe', nor could it be found using path 'E:/Viviado_project/MCU_Acceptance_with_MCU_board_blk/MCU_Acceptance.srcs/sources_1/COE/c2M.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/viviado2020/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'dmem_blk' generated file not found 'd:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dmem_blk/dmem_blk.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'dmem_blk' generated file not found 'd:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dmem_blk/dmem_blk_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'dmem_blk' generated file not found 'd:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dmem_blk/dmem_blk_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'dmem_blk' generated file not found 'd:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dmem_blk/dmem_blk_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'dmem_blk' generated file not found 'd:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dmem_blk/dmem_blk_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1162.172 ; gain = 0.000
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.coefficient_file {D:/viviado2020/MCU_Acceptance_with_MCU_board_11/c2M.coe}] [get_ips dist_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/viviado2020/MCU_Acceptance_with_MCU_board_11/c2M.coe' provided. It will be converted relative to IP Instance files '../../../../../../MCU_Acceptance_with_MCU_board_11/c2M.coe'
+generate_target all [get_files  D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'dist_mem_gen_0'...
+catch { config_ip_cache -export [get_ips -all dist_mem_gen_0] }
+export_ip_user_files -of_objects [get_files D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.xci] -no_script -sync -force -quiet
+reset_run dist_mem_gen_0_synth_1
+launch_runs dist_mem_gen_0_synth_1 -jobs 4
+[Tue Jul  4 03:46:36 2023] Launched dist_mem_gen_0_synth_1...
+Run output will be captured here: D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.runs/dist_mem_gen_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dist_mem_gen_0_1/dist_mem_gen_0.xci] -directory D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.ip_user_files/sim_scripts -ip_user_files_dir D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.ip_user_files -ipstatic_source_dir D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.cache/compile_simlib/modelsim} {questa=D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.cache/compile_simlib/questa} {riviera=D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.cache/compile_simlib/riviera} {activehdl=D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/data_out_mem/data_out_mem.xci' is already up-to-date
+[Tue Jul  4 03:47:28 2023] Launched synth_1...
+Run output will be captured here: D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/COE/conv_data_out.coe' provided. It will be converted relative to IP Instance files '../../../../MCU_Acceptance.srcs/sources_1/COE/conv_data_out.coe'
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.coefficient_file {D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/c2M.coe}] [get_ips dist_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/c2M.coe' provided. It will be converted relative to IP Instance files '../../../../c2M.coe'
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.srcs/sources_1/ip/data_out_mem/data_out_mem.xci' is already up-to-date
+[Tue Jul  4 03:49:59 2023] Launched synth_1...
+Run output will be captured here: D:/viviado2020/onboard_success_own_plat2.0/MCU_Acceptance_with_MCU_board/MCU_Acceptance.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  4 03:50:19 2023...

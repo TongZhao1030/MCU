@@ -1,0 +1,7 @@
+Running: xsim.dir/MCU_tb_func_impl/xsimk.exe -simmode gui -wdb MCU_tb_func_impl.wdb -simrunnum 0 -socket 55399
+Design successfully loaded
+Design Loading Memory Usage: 28188 KB (Peak: 28188 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 34196 KB (Peak: 34196 KB)
+Simulation CPU Usage: 155 ms

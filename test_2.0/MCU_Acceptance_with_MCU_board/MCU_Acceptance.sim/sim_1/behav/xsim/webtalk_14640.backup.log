@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jul  2 19:48:43 2023
+# Process ID: 14640
+# Current directory: E:/Viviado_project/MCU_Acceptance_with_MCU/MCU_Acceptance.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/Viviado_project/MCU_Acceptance_with_MCU/MCU_Acceptance.sim/sim_1/behav/xsim/xsim.dir/MCU_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/Viviado_project/MCU_Acceptance_with_MCU/MCU_Acceptance.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/Viviado_project/MCU_Acceptance_with_MCU/MCU_Acceptance.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/Viviado_project/MCU_Acceptance_with_MCU/MCU_Acceptance.sim/sim_1/behav/xsim/xsim.dir/MCU_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/Viviado_project/MCU_Acceptance_with_MCU/MCU_Acceptance.sim/sim_1/behav/xsim/xsim.dir/MCU_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Jul  2 19:48:49 2023. For additional details about this file, please refer to the WebTalk help file at E:/Vivadu/Vivado/2020.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 81.785 ; gain = 7.684
+INFO: [Common 17-206] Exiting Webtalk at Sun Jul  2 19:48:49 2023...
