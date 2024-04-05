@@ -53,7 +53,7 @@
 -----
 我们对汇编指令进行了优化，将一些需要重复使用的操作数固定存储在一些寄存器中，另外还优化了一些中间步骤的运算顺序，大幅度减少了从存储器中取操作数到寄存器中的操作，减少了LDR等指令的数量，从而减少了时钟周期。
 
-**你可以在test_1.0(test_2.0)/final_project/final_project.srcs/sources_1/new中找到Verilog代码。**
+你可以在test_1.0(test_2.0)/final_project/final_project.srcs/sources_1/new中找到Verilog代码。
 
 
 
